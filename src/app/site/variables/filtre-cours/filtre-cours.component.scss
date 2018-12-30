@@ -1,0 +1,32 @@
+#filtre-cours{
+	margin-bottom: 25px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #CCCCCC;
+}
+#filtre-cours  h1 {
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0;
+}
+#filtre-cours #resume-general {
+    margin-left: 10px;
+    line-height: 22px;
+    outline: none;
+}
+#filtre-cours ul.liste-criteres {
+    margin: 0;
+    float: right;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.liste-criteres {
+    padding-left: 0;
+    list-style: none;
+}
+.liste-criteres > li:first-child {
+    padding-left: 0;
+}
+.liste-criteres > li {
+    display: inline-block;
+    padding-right: 5px;
+}

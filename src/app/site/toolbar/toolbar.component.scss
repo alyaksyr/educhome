@@ -1,0 +1,77 @@
+@media screen{
+  .app-top-toolbar{
+    background: #0f0f0f;
+    color: white;
+    //position: fixed;
+    z-index: 200;
+  }
+  mat-toolbar-row{
+    height: 80px;
+  }
+  .app-title-logo{
+    display: block;
+    margin-right:10px;
+  }
+  .app-logo{
+    background-image: url(/assets/img/logo.png);
+    background-repeat: no-repeat;
+    background-position: center center fixed; 
+    position: relative;
+    width: 164px;
+  }
+  .toggle{
+    display: none;
+  }
+  .app-top-menu-item:hover{
+    text-decoration: none;
+    color:white;
+    background-color: transparent;
+  }
+  .logo-let-init{
+    display: none;
+  }
+  .logo-let{
+    display: block;
+  }
+}
+@media screen and(max-width: 767px){
+  .app-top-toolbar{
+    display: flex;
+  }
+  mat-toolbar-row{
+    height: 64px;
+  }
+  .toggle{
+    display: block;
+    margin-right: 5px;
+  }
+  .app-logo{
+    background-image: none;
+    width: auto;
+  }
+  .logo-let{
+    display: none;
+  }
+  .logo-let-init{
+    font-weight: 600;
+    font-size: 24px;
+    font-style: italic;
+    display: block;
+  }
+  .let-home{
+    color: #ed5324;
+  }
+  .let-educ{
+    color: #0159a3;
+  }
+}
+.app-top-action{
+  display: flex;
+  padding: 8px 16px;
+}
+.app-top-action button{
+  margin-left: 10px;
+}
+.app-top-spacer{
+    flex:1 1 auto;
+  }

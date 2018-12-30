@@ -1,0 +1,63 @@
+<div class="bloc-account">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10 offset-lg-1">
+				<div id="signup-header">
+					<h2>Identifiez-vous chez EducHome</h2>
+				</div>
+				<div class="row">
+					<div class="col-md-5 offset-md-1">
+						<mat-card class="signup-account">
+							<mat-card-header class="signup-account-title">
+								<div class="mat-card-header-text">
+									<h4>J'ai déjà un compte EducHome</h4>
+								</div>
+							</mat-card-header>
+							<mat-card-content>
+								<form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+									<div class="row">
+										<mat-form-field class="col-lg-12">
+											<input matInput  placeholder="Identifiant" formControlName="identifiant">
+										</mat-form-field>
+									</div>
+									<div class="row">
+										<mat-form-field class="col-lg-12">
+											<input matInput type="password" placeholder="Mot de passe" formControlName="password">
+										</mat-form-field>
+									</div>
+									<div class="row"  style="margin-top: -15px;">
+										<small class="col-lg-12">J'ai oublié mon <a href="#">mot de passe</a></small>
+									</div><br>
+									<div class="row">
+										<mat-checkbox class="col-lg-12" name="staylog" id="staylog">Restez connecter !</mat-checkbox>
+									</div>
+								</form>
+							</mat-card-content>
+							<mat-card-footer>
+								<button mat-raised-button type="submit" class="btn btn-primary btn-lg btn-block" (click)="login()">Se connecter</button>
+							</mat-card-footer>
+						</mat-card>
+					</div>
+					<div class="col-md-5">
+						<mat-card class="signup-account">
+							<mat-card-header class="signup-account-title">
+								<h4>Je n'ai pas de compte EducHome</h4>
+							</mat-card-header>
+							<mat-card-content class="signup-account-content">
+								Créer un compte EducHome pour :
+								<ul>
+									<li>Accéder 798 cours gratuits !</li>
+									<li>Rejoindre une communauté apprenants</li>
+									<li>Discuter avec les formateurs</li>
+								</ul>
+							</mat-card-content>
+							<mat-card-footer>
+								<button mat-raised-button type="submit" class="btn btn-primary btn-lg btn-block" (click)="onCreerUnCompte()">Créer un compte</button>
+							</mat-card-footer>
+						</mat-card>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

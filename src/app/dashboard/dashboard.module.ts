@@ -7,6 +7,10 @@ import { LayoutComponent } from './layout/layout.component';
 import { AccueilComponent } from './accueil/accueil.component';
 import { FooterComponent } from './footer/footer.component';
 import { CoreModule } from '../core/core.module';
+import { ExportMaterialModule } from '../export-material/export-material.module';
+import { EnseignantComponent } from './enseignant/enseignant.component';
+import { EleveComponent } from './eleve/eleve.component';
+import { ParentComponent } from './parent/parent.component';
 
 @NgModule({
   imports: [
@@ -14,8 +18,9 @@ import { CoreModule } from '../core/core.module';
     DashboardRoutingModule,
     RouterModule,
     CoreModule,
+    ExportMaterialModule,
   ],
-  declarations: [LayoutComponent, AccueilComponent, FooterComponent],
+  declarations: [LayoutComponent, AccueilComponent, FooterComponent, EnseignantComponent, EleveComponent, ParentComponent],
   exports: [LayoutComponent],
   schemas: [NO_ERRORS_SCHEMA]
 })

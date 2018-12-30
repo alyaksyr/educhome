@@ -1,3 +1,92 @@
-<p>
-  footer works!
-</p>
+<div id="bas-site" class="hidden-xs hidden-sm">
+	<!--ul class="nav pull-right scroll-top" style="">
+		<li><a href="#" title="Retour en haut"><i class="fa fa-chevron-up"></i></a></li>
+	</ul-->
+	<div class="container">
+		<div class="footer-links">
+			<div class="row">
+				<div class="col-md-5">
+					<div class="footer-aside">
+						<div class="footer-aside-title">A Propos</div>
+							<div class="footer-aside-content">
+								<p>EducHome est un réseau educatif proposant, des tutoriels, d'entraide entre les elèves et de recrutement de professeurs de maison. Trouvez des tutos pour combler vos lacunes.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="footer-aside">
+							<div class="footer-aside-title"> Liens utiles</div>
+							<div class="footer-aside-content">
+								<ul class="list-sans-puce">
+									<li>Programme</li>
+									<li>Cours</li>
+									<li>Abonnement</li>
+									<li>Soutien scolaire</li>
+									<li>Cours Gratuits</li>
+   									<li>Devenir enseignant</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="footer-aside">
+							<div class="footer-aside-title">Stats</div>
+							<div class="footer-aside-content">
+								<ul class="list-sans-puce">
+									<li>
+										<strong>15 004 </strong> 
+										<small>tuto vidéo téléchargés</small>
+									</li>
+									<li>
+										<strong>1 504 000 </strong> 
+										<small>FCFA reversés aux formateurs</small>
+									</li>
+									<li>
+										<strong>10 000 </strong> 
+										<small>utilisateurs</small>
+									</li>
+									<li>
+										<strong>2 545 </strong> 
+										<small>tuto vidéo</small>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-spacer"></div>
+			<div class="footer-menu">
+				<div class="row">
+					<div class="col-md-4">
+						<span class="footer-copyright">Copyright © 2018 Designed by <a href="#">AQUICK'INTL</a></span>
+					</div>
+					<div class="col-md-6">
+						<div class="footer-menu-nav">
+							<ul class="list-horizontal">
+								<li *ngFor="let page of pages">
+									<a [routerLink]="['/site/page']" [queryParams]="{p:page.page_code}">{{page.page_title}}</a> 
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="footer-icon-right">
+				            <a mat-mini-fab class="btn-social facebook" href target="_blank">
+				              <i class="fa fa-facebook"></i>
+				            </a>
+				            <a mat-mini-fab class="btn-social twitter" href target="_blank">
+				              <i class="fa fa-twitter"></i>
+				            </a>
+				            <a mat-mini-fab class="btn-social gplus" href target="_blank">
+				              <i class="fa fa-google-plus"></i>
+				            </a>
+				            <a mat-mini-fab class="btn-social linkedin" href target="_blank">
+				              <i class="fa fa-linkedin"></i>
+				            </a>
+				          </div>
+					</div>
+				</div>
+			</div>
+	</div>
+</div>

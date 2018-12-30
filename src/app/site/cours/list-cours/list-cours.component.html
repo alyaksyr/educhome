@@ -1,0 +1,25 @@
+<div class="row" style="margin-top: 15px;">
+	<div id="sidebar" class="col-md-2">
+		<app-sidebar [sidebar]="sidebar"></app-sidebar>
+	</div>
+	<div id="liste-cours" class="col-md-10">
+		<app-filtre-cours></app-filtre-cours>
+		<div class="corps-contenu">
+			<div class="row">
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<app-cours></app-cours>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<app-cours></app-cours>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<app-cours></app-cours>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<app-cours></app-cours>
+				</div>
+			</div>
+			<div id="pagination-right"></div>
+		</div>
+	</div>
+</div>

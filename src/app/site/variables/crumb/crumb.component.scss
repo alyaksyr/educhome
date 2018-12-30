@@ -1,0 +1,18 @@
+.breadcrumb-env{
+	padding-top: 10px;
+}
+.breadcrumb{
+	background-color: transparent;
+    border-radius: 0;
+    font-size: 14px;
+    line-height: 1;
+    color: #123;
+}
+.breadcrumb > li + li:before {
+  padding: 0 5px;
+  color: #ccc;
+  content: ">\00a0";
+}
+.breadcrumb > li {
+  padding-left: 3px;
+}

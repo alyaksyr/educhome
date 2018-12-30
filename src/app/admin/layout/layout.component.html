@@ -1,3 +1,14 @@
-<p>
-  layout works!
-</p>
+<div class="wrapper">
+    <app-topnavbar></app-topnavbar>
+    <app-root-sidebar></app-root-sidebar>
+    <div class="content-wrapper">
+        <section class="content-header" style="border-bottom:1px solid #444;">
+            <h1>Page title</h1>
+            <ol class="breadcrumb"></ol>
+        </section>
+        <section class="content">
+            <router-outlet></router-outlet>
+        </section>
+    </div>
+    <app-footernavbar></app-footernavbar>
+</div>

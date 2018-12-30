@@ -1,0 +1,16 @@
+<mat-card>
+  <div class="bloc-page">
+    <div>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <ng-container *ngFor="let ehbc_nav of ehbc_navs; let i=index;">
+            <li class="breadcrumb-item"><a href="#">
+              <ng-container *ngIf="i==0"><i class="fa fa-{{ehbc_fa}}"></i></ng-container>
+              {{ehbc_nav}}</a></li>
+          </ng-container>
+          <li class="breadcrumb-item active" aria-current="page">{{ehbc_active_nav}}</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+</mat-card>

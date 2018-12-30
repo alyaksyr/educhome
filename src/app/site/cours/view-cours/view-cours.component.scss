@@ -1,0 +1,82 @@
+#menu-cours.fixed-top {
+    position: fixed;
+    /* display: none; */
+    z-index: 1030;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+
+#menu-cours {
+    background: #222d32;
+}
+#menu-cours {
+    display: block;
+}
+#menu-cours-nav li {
+    float: left;
+    padding-left: 5px;
+}
+#menu-action-cours {
+    text-align: right;
+}
+#menu-cours .zone-prix-cours {
+    padding-top: 5px;
+    text-align: center;
+}
+.zone-prix-cours .prix-cours {
+    display: block;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+#cours-preview-wrapper {
+    background: #222d32;
+    color: #fff;
+    padding-bottom: 30px;
+    padding-top: 25px;
+}
+.sidebloc-cours {
+    padding-right: 10px;
+    margin-right: 0;
+}
+.sidebloc-cours .titre-cours {
+    font-size: 25px;
+    padding: 0;
+    line-height: 1;
+    margin: 0 0 20px;
+    font-weight: normal;
+}
+.achat-cours, .attributs-cours {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.achat-cours .prix-cours {
+    font-size: 25px;
+    margin-right: 25px;
+    float: right;
+}
+.attributs-cours .note-cours {
+    margin-left: 25px;
+    font-size: 16px;
+}
+.sidebloc .liste-element-cours {
+    padding: 0;
+    list-style: none;
+}
+.liste-avantage-cours li::before {
+    content: "";
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    border-radius: 8px;
+    margin-right: 10px;
+    background: #fedcba;
+
+}
+#viedo-cours-wrapper {
+    margin-bottom: 30px;
+    overflow: hidden;
+}

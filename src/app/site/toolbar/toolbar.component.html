@@ -1,18 +1,33 @@
 <mat-toolbar color="primary" class="app-top-toolbar">
 	<mat-toolbar-row>
-		<span class="app-title-logo">
-			<b style="color: blue;">E</b>duc<b style="color: orange;">H</b>ome
+		<span class="toggle">
+			<button mat-icon-button>
+		      <mat-icon>menu</mat-icon>
+		    </button>
+		</span>
+		<span class="navbar-header app-title-logo">
+			<a routerLink="/" class="navbar-brand app-logo" title="EducHome">
+				<span class="logo-let">EducHome</span>
+				<span class="logo-let-init">
+					<b class="let-educ">E</b>
+					<b class="let-home">H</b>
+				</span>
+			</a>
 		</span>
 		<nav class="app-top-menu">
-			<a class="app-top-menu-item mat-button" mat-button routerLink="/"><span>Cours</span></a>
-     		<a class="app-top-menu-item mat-button" mat-button routerLink="/site/login"><span>Solutions</span></a>
-     		<a class="app-top-menu-item mat-button" mat-button routerLink="/site/register"><span>Formations</span></a>
+			<a class="app-top-menu-item mat-button" mat-button routerLink="/site/cours"><span>Cours</span></a>
+     		<a class="app-top-menu-item mat-button" mat-button routerLink="/"><span>Solutions</span></a>
+     		<a class="app-top-menu-item mat-button" mat-button routerLink="/site/formations"><span>Formations</span></a>
 		</nav>
+		<span class="app-top-spacer"></span>
 		<button mat-icon-button>
 	       <mat-icon>search</mat-icon>
 	    </button>
 	    <span class="app-top-actions">
-	    	<button mat-button>Mon espace</button>
+	    	<a class="app-top-menu-item mat-button" mat-button routerLink="/site/auth" >
+	    		<i class="fa fa-user"></i>
+	    		<span> Mon espace</span> 
+	    	</a>
       		<button mat-raised-button class="app-btn-bg-primary" color="warn">Devenir enseignant</button>
 	    </span>
 	</mat-toolbar-row>

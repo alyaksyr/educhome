@@ -1,0 +1,83 @@
+#bas-site {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color: #f2f2f2;
+    background: #0f0f0f;
+}
+#bas-site a {
+    color: #fff;
+}
+.scroll-top {
+    width: 42px;
+    background: #52dfae;
+    height: 40px;
+    margin-bottom: 50px;
+    margin-top: -60px;
+    margin-right: 10px;
+}
+#bas-site .footer-spacer {
+    width: 100%;
+    height: 0;
+    margin: 19px 0 20px;
+    border-top: 1px solid #3e4247;
+}
+#bas-site .footer-aside .footer-aside-title {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+#bas-site .footer-aside .footer-aside-title {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.list-sans-puce {
+    padding-left: 0;
+    list-style: none;
+}
+#bas-site .footer-copyright a {
+    text-decoration: none;
+    color: #f1f7f9;
+}
+.list-horizontal a:hover{
+    text-decoration: none;
+}
+.list-horizontal {
+    padding-left: 0;
+    list-style: none;
+}
+.footer-icon-right {
+    text-align: right;
+    margin-top: -5px;
+    margin-left: -20px;
+}
+#bas-site .footer-menu{
+    font-size: 13px;
+}
+#bas-site .footer-menu ul> li {
+    padding: 0 20px 0 0px;
+}
+
+.list-horizontal >li {
+    display: inline-block;
+}
+.btn-social{
+  color: #ffffff;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 18px;
+  margin-left: 5px;
+  background-color: transparent;
+}
+.btn-social.facebook:hover{
+  background-color: #3c599f;
+}
+.btn-social.twitter:hover{
+  background-color: #1ab2e8;
+}
+.btn-social.gplus:hover{
+  background-color: #dc4a38;
+}
+.btn-social.linkedin:hover{
+  background-color: #006699;
+}

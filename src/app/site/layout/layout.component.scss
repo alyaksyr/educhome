@@ -1,0 +1,11 @@
+#page-wrapper{
+	background: darken(white, 5);
+	display: block;
+	height: auto;
+}
+app-toolbar{
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 200;
+}

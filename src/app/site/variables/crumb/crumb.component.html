@@ -1,0 +1,12 @@
+<div aria-label="breadcrumb-env">
+    <ol class="breadcrumb bc-1">
+    	Vous êtes ici : 
+        <li class="breadcrumb-item" *ngFor="let nav of crumb.nav; let i=index;">
+        	<a href="#">
+                <i *ngIf="i==0" class="fa fa-{{crumb.fa}}"> </i>
+	             {{nav.name}}
+	        </a>
+	    </li>
+        <li class="breadcrumb-item active" aria-current="page">{{crumb.active_nav.name}}</li>
+    </ol>
+</div>

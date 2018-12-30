@@ -9,7 +9,15 @@ import { DashboardModule } from './dashboard/dashboard.module';
 import { AdminModule } from './admin/admin.module';
 import { SharedModule } from './shared/shared.module';
 import { CoreModule } from './core/core.module';
-import { MatToolbarModule } from '@angular/material';
+import { MatToolbarModule, 
+         MatButtonModule, 
+         MatSidenavModule, 
+         MatIconModule, 
+         MatListModule, 
+         MatGridListModule, 
+         MatCardModule, 
+         MatMenuModule } from '@angular/material';
+import { RegisterService } from './core/services/auth/register.service';
 
 @NgModule({
   declarations: [
@@ -26,8 +34,15 @@ import { MatToolbarModule } from '@angular/material';
 	  SharedModule,
 	  CoreModule,
     MatToolbarModule,
+    MatButtonModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule,
+    MatGridListModule,
+    MatCardModule,
+    MatMenuModule
   ],
-  providers: [],
+  providers: [RegisterService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

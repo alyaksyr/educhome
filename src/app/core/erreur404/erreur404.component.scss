@@ -1,0 +1,26 @@
+#page-wrapper{
+	padding-top: 100px;
+	padding-bottom: 40px;
+}
+@media screen {
+	.mat-card {
+		text-align: center;
+		button {
+			margin-right: 10px;
+		}
+	}
+	.bloc-error-404 {
+		display: block;
+		height: 100%;
+		background: darken(white, 5);
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.bloc-container {
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  position: relative;
+	}	
+}
